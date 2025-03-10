@@ -1,4 +1,4 @@
-data/
+data
 .DS_STORE
 __pycache__/
 *.pyc
