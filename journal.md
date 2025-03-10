@@ -13,4 +13,10 @@ Papers and datasets we've looked at:
 * https://www.sciencedirect.com/science/article/pii/S2352340923009861
 * https://pmc.ncbi.nlm.nih.gov/articles/PMC11190471/ 
 
+# March 10, 2025
+Revised project proposal after working with grape disease dataset and assessing its unviability.
+
+Went through bunch of datasets on Landfire.gov and FIRED providing data relating to topography, land terrain, various weather conditions, and fire progressions for various regions - looked particularly at opportunities to synchronize data for overlapping spatial regions between the two sources.
+
+New project direction: wildfire simulations + prediction. Updated in abstract.md file.
 
