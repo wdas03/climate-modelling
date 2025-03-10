@@ -23,3 +23,5 @@ Went through bunch of datasets on Landfire.gov and FIRED providing data relating
 
 New project direction: wildfire simulations + prediction. Updated in abstract.md file.
 
+EDA done for MERRA global temperature + wind speed/flow data, FIRED data for wildfire occurences in CONUS, and elevation data for CONUS so far.
+
