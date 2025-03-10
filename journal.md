@@ -13,6 +13,9 @@ Papers and datasets we've looked at:
 * https://www.sciencedirect.com/science/article/pii/S2352340923009861
 * https://pmc.ncbi.nlm.nih.gov/articles/PMC11190471/ 
 
+# March 7, 2025
+Discussed with researcher in Climate school who is working on wildfire simulations. He suggested https://landfires.gov/data for good data and shared some of his experience on working on these types of projects. Main challenge with data is going to be combining multiple sources and aligning.
+
 # March 10, 2025
 Revised project proposal after working with grape disease dataset and assessing its unviability.
 
