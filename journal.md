@@ -25,3 +25,6 @@ New project direction: wildfire simulations + prediction. Updated in abstract.md
 
 EDA done for MERRA global temperature + wind speed/flow data, FIRED data for wildfire occurences in CONUS, and elevation data for CONUS so far.
 
+# March 21, 2025
+For reference, this paper provides a good amount of sources for data. https://www.sciencedirect.com/science/article/pii/S2666719324000244. We continue to work on data wrangling and alignment.
+
