@@ -29,4 +29,6 @@ EDA done for MERRA global temperature + wind speed/flow data, FIRED data for wil
 For reference, this paper provides a good amount of sources for data. https://www.sciencedirect.com/science/article/pii/S2666719324000244. We continue to work on data wrangling and alignment.
 
 # March 23, 2025
-Because the CONUS dataset is gigantic and my personal computer can't handle it, I decided to do some explorations of objective 1 (from abstract) and play around with some dummy data to predict wildfire spread. If this yields fruitful, I think we can continue to explore this route and see how simulations go.
+Because the CONUS dataset is gigantic and my personal computer can't handle it, I decided to do some explorations of objective 1 (from abstract) and play around with some dummy data to predict wildfire spread. If this yields fruitful, I think we can continue to explore this route and see how simulations go. 
+
+For more thorough simiulations, we will need to actually factor in variables like wind change (from MERRA data) to represent a more realistic scenario.
