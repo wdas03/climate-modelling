@@ -35,3 +35,7 @@ For more thorough simiulations, we will need to actually factor in variables lik
 
 # March 30, 2025
 Worked more on data integration with elevation and slope data, and mainly on problem statement 1 of abstract.md. Made some more progress with data curation and planning to test a few ML models.
+
+
+# April 2, 2025
+Finally got integrated ignition data after hours of running conus notebook. Next steps is to do somebaseline evaluations.
