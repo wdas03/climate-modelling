@@ -39,3 +39,6 @@ Worked more on data integration with elevation and slope data, and mainly on pro
 
 # April 2, 2025
 Finally got integrated ignition data after hours of running conus notebook. Next steps is to do somebaseline evaluations.
+
+# April 7, 2025
+Used the CSV produced from elevation data to see how that performs. As expected it performed really poorly -- we need to account for other factors such as slope and aspect data. Elevation is relevant but does not account for much.
