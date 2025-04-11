@@ -45,3 +45,6 @@ Used the CSV produced from elevation data to see how that performs. As expected 
 
 # April 8, 2025
 Due to the poor performance of only considering elevation data, we update our integration pipeline to consider slope and aspect data. We hope that taking this route will give us promising results.
+
+# April 11, 2025
+Tested with newly acuired slope and aspect data -> unfortunately using just our exisitng out-of-the box methods didn't prove to be too much different. We plan to explore more into the data and potentially changing our methodology.
