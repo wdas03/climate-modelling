@@ -48,3 +48,6 @@ Due to the poor performance of only considering elevation data, we update our in
 
 # April 11, 2025
 Tested with newly acuired slope and aspect data -> unfortunately using just our exisitng out-of-the box methods didn't prove to be too much different. We plan to explore more into the data and potentially changing our methodology.
+
+# April 16, 2025
+Integration of additional slope aspect data to augment the slope percent and degree data (providing directionality of slopes for the ML models).
