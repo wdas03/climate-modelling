@@ -1,0 +1,34 @@
+% !TEX program = pdflatex
+\documentclass{article}
+% \input{preamble/preamble}
+% \input{preamble/preamble_math}
+\usepackage{url} 
+
+\begin{document}
+
+\title{\textbf{ML \& Climate | Final Report}}
+\date{\today}
+\author{Kent Liu, William Das}
+
+\maketitle
+
+\begin{abstract}
+    Wildfires are a pressing environmental challenge, particularly in regions with complex topography and flammable vegetation, such as parts of the United States. This project proposes to harness topographic and environmental data from \textbf{LANDFIRE} alongside detailed wildfire event data—modeled after the \textbf{FIRED} curated data (linked below)—to predict wildfire spread rates and enhance simulation capabilities. Focusing on a U.S. region like California, this project aims to develop predictive models that can forecast daily fire spread rates and directions based on topographic and other meteorological features.
+
+\end{abstract}
+
+\section{Background}
+Over the years, fire activity is increasing globally and warming temperatures and aridity are driving patterns of fire activities especially on the Western United States. \cite{https://doi.org/10.1111/j.1365-2699.2011.02595.x} While fire plays an important role in many natural processes such as nutrient cycling and habitat creation, unwarranted fires can be more detrimental than beneficial. They can hinder such natural processes and even put human lives at danger. Between 1990 and 2024, despite a 10 percent decrease in number of ignitions in the US, the annual area burned has increased by nearly 60 percent. \cite{wibbenmeyer2021wildfires}
+
+To better understand and anticipate wildfire behavior, researchers now integrate high-resolution spatial datasets with historical fire event records. For instance, the \textbf{LANDFIRE} program \cite{landfire} offers over 20 national geospatial layers for the contiguous United States and U.S. insular areas, including elevation, slope, aspect, vegetation types, fuel models, and disturbance history. These layers provide essential environmental context that helps characterize landscape susceptibility to fire.
+
+In addition, the \textbf{FIRED} datasets provide event-level and daily summaries of wildfires across the U.S., including key metrics such as ignition dates, total area burned, and daily spread rates. The existing \textbf{FIRED CONUS} dataset \cite{firedpy} specifically covers the contiguous U.S. from 2001 to 2019 and offers polygon-based fire perimeters with daily burn progression derived from MODIS satellite observations.
+
+By integrating LANDFIRE’s environmental data with FIRED CONUS’s fire-specific data, we can construct robust machine learning models to predict fire dynamics such as daily spread rates (e.g., km\textsuperscript{2}/day), total spatial extent, or severity. This approach enables both retrospective analysis and predictive modeling of wildfire behavior. Furthermore, we extend our analysis to incorporate real-time fire incident data from 2025 \cite{calfire2025}, allowing us to evaluate model performance on recent and ongoing wildfire events in California and beyond.
+
+\section{Exploratory Data Analysis}
+
+\bibliographystyle{abbrv}
+\bibliography{reference}
+
+\end{document}
