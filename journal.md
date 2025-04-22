@@ -51,3 +51,7 @@ Tested with newly acuired slope and aspect data -> unfortunately using just our 
 
 # April 16, 2025
 Integration of additional slope aspect data to augment the slope percent and degree data (providing directionality of slopes for the ML models).
+
+
+# April 21, 2025
+Start on reports and ran some more tests using modified CONUS dataset.
