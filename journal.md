@@ -60,3 +60,7 @@ Start on reports and ran some more tests using modified CONUS dataset.
 After some discussion on our current results, which did not prove to be too fruitful, we discussed other approaches. First, we will try to reframe regression prediction as classification problem. Instead of predicting continuous values, we categorize fire spread rates or total area of fire burned into severity categories, i.e. low, medium, high and run classification in same exact way. After looking at the dataset, we see most ranges fall between 0.1 and 1.0 (with most being around ~0.2 km^2/day). With this we start with boundaries of 0.1 for low severity and 1.0 for high severity.
 
 One thing to note from running tests with basic classification methods (naive bayes, etc.) is the class imbalance. As previously noted, nost values for fire spread rate are around 0.2.
+
+
+# May 1, 2025
+After some feedback from professor, we decided to steer away from one-hot encoding of categorial variables as it would degrade tree-based method performance.
