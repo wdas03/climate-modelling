@@ -64,3 +64,6 @@ One thing to note from running tests with basic classification methods (naive ba
 
 # May 1, 2025
 After some feedback from professor, we decided to steer away from one-hot encoding of categorial variables as it would degrade tree-based method performance.
+
+# May 5, 2025
+Wanted to use some unsupervised techniques like PCA to see which features are contributing to the variance the most.
