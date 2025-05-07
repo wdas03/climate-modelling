@@ -67,3 +67,6 @@ After some feedback from professor, we decided to steer away from one-hot encodi
 
 # May 5, 2025
 Wanted to use some unsupervised techniques like PCA to see which features are contributing to the variance the most.
+
+# May 6 + 7
+Using the data from the `fired_conus_ak_2000_to_2024_events.csv` file, we can use the ignition coordinates and event dates to make calls to the Open Meteo API to get information on associated weather events such as precipitation, sun exposure, and humidity.
