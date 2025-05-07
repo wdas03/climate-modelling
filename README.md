@@ -12,6 +12,11 @@ Once your data is ready, we format the important data into csv files for easy ha
 Run the `data_integration_slopes.ipynb` notebook and change the file paths accordingly. This will output a csv file with corresponding slope, aspect, and elevation data. For your convenience, the resulting file is `ignition_topography_data.csv`.
 
 ### Integrate weather data
-Run the `weather.ipynb` notebook and change the API keys and file paths accordingly. This will output a csv file with corresponding weather data.
+Run the `weather.ipynb` notebook and change the API keys and file paths accordingly. To fully recreate, create a subscription with https://open-meteo.com/. This will allow to make a lot of API calls which is needed as there are over 340000 rows of data to account for. This will output a csv file with corresponding weather data.
 
 ## Evaluation
+To run EDA, run `conus_eda.ipynb`.
+
+To run simple out-of-the-box methods, run `baseline.ipynb` and change the file paths to data accordingly. 
+
+To run evaluation on the classification problem formulation of the problem, run `classification_problem.ipynb`.
