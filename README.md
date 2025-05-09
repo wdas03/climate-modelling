@@ -16,6 +16,8 @@ Run the `weather.ipynb` notebook and change the API keys and file paths accordin
 
 This will allow to make a lot of API calls which is needed as there are over 120000 rows of data to account for. This will output a csv file with corresponding weather data.
 
+To combine the slope and weather data, run `merge_weather_and_slope.ipynb`. This will result in a csv file with over 300 features.
+
 ## Evaluation
 To run EDA, run `conus_eda.ipynb`.
 
