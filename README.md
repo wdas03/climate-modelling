@@ -2,11 +2,13 @@
 Instructions on how to run code.
 
 ## Getting Data
-First, download the `FIRED CONUS AK V2` dataset from https://scholar.colorado.edu/concern/datasets/fx719p11c?locale=de 
+First, download the `FIRED CONUS AK V2` dataset from https://scholar.colorado.edu/concern/datasets/fx719p11c?locale=de. All wildfire data originates from here.
 
-*Note* This is a very large download and will require at LEAST 40GB of disk space to uncompress.
+**Note** This is a very large download and will require at LEAST 40GB of disk space to uncompress.
 
 Once your data is ready, we format the important data into csv files for easy handling and running ML.
+
+**Be sure to edit all filepaths according to your environment/setup!**
 
 ### Integrate slope data
 Run the `data_integration_slopes.ipynb` notebook and change the file paths accordingly. This will output a csv file with corresponding slope, aspect, and elevation data. For your convenience, the resulting file is `ignition_topography_data.csv`.
