@@ -2,3 +2,7 @@ data
 .DS_STORE
 __pycache__/
 *.pyc
+*.pkl
+catboost_info/
+*.sqlite
+*.h5
