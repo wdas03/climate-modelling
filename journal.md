@@ -73,3 +73,6 @@ Using the data from the `fired_conus_ak_2000_to_2024_events.csv` file, we can us
 
 # May 8 + 9
 Even with the new data, we are still getting negative R^2 scores despite trying various methods. I think the conclusion is that fire spread rate prediction is a very tricky topic to tackle. A part of it probably has to do with the data skewedness.
+
+# May 10
+Ran more analysis with new augmented data. Tested Deep Learning approaches and new two-week forcasting binary classifcation formulation.
