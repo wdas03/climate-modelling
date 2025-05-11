@@ -14,7 +14,9 @@ First, download the `FIRED CONUS AK V2` dataset from https://scholar.colorado.ed
 
 Once your data is ready, we format the important data into csv files for easy handling and running ML.
 
-**Be sure to edit all filepaths according to your environment/setup!** We make our data available to all LionMail users at https://drive.google.com/drive/folders/1drGPNF-rHee4apAsOcTFDDLzJKu5N5IH 
+**Be sure to edit all filepaths according to your environment/setup!** We make our data available to all LionMail users at https://drive.google.com/drive/folders/1drGPNF-rHee4apAsOcTFDDLzJKu5N5IH.
+
+For working with climate-only data (weather variables such as temperature, evapotranspiration, precipiation, etc...), our aggregated, pre-processed dataframe which we run our analyses on is located at https://drive.google.com/file/d/1iG8WW2pRfrVN4SRSfW0Z-mlkFg4fJgYd/view?usp=drive_link (fire_events_with_weather_metrics_augmented.csv) and around 550MB large. To run the notebooks (such as `src/wildfire_modelling_climate_data.ipynb`), this file should be downloaded to a directory called /data in the root directory of this repo. 
 
 ### Integrate slope data
 Run the `data_integration_slopes.ipynb` notebook and change the file paths accordingly. This will output a csv file with corresponding slope, aspect, and elevation data. For your convenience, the resulting file is `ignition_topography_data.csv`. [Download from Google Drive](https://drive.google.com/file/d/1pr1a_Je8V-NFMvdiVt0EDQ6x99erDUqd/view?usp=drive_link)
