@@ -21,9 +21,15 @@ This will allow to make a lot of API calls which is needed as there are over 120
 
 To combine the slope and weather data, run `merge_weather_and_slope.ipynb`. This will result in a csv file with over 300 features. [Download from Google Drive](https://drive.google.com/file/d/1NFF5LQrX20MmjflPbOWDDDUK1vnGHd-e/view?usp=drive_link)
 
+### Data Creation, Aggregation, and Feature Engineering
+Our main feature engineering is done in `src/wildfire_modelling_climate_data.ipynb`. Running the cells starting from the top, provided the CONUS data is stored in the data directory, will create and query data from external APIs (takes around 7-8 hours on M1 Mac). The main dataframe including our features and labels are stored in `data/fire_events_with_weather_metrics_augmented.csv` and `data/nonfire_events_with_weather_metrics_augmented.csv`. Reading these files in pandas and running our analyses should be straightforward.
+
 ## Evaluation
 To run EDA, run `conus_eda.ipynb`.
 
 To run simple out-of-the-box methods, run `baseline.ipynb` and change the file paths to data accordingly. 
 
 To run evaluation on the classification problem formulation of the problem, run `classification_problem.ipynb`.
+
+### ML and Statistical Analyses for Climate Variables
+`src/wildfire_modelling_climate_data.ipynb` contains the code for running and evaluating our baseline models only on climate variables. Starting from the section titled **# Statistical Analysis of Fire vs Non-fire Features**, you'll be able to fetch the primary dataframes we curated and integrated earlier in the notebook, and run all relevant ML and statistical analyses.
