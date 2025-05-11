@@ -1,0 +1,25 @@
+# For data processing
+pandas
+numpy
+
+# ML packages
+scikit-learn
+xgboost  
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Geospatial
+geopandas
+shapely
+rasterio
+folium
+
+# Web & APIs
+openmeteo-requests
+requests-cache
+retry-requests
+
+# Utilities
+tqdm
