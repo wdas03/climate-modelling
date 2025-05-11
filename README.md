@@ -47,6 +47,8 @@ To run simple out-of-the-box methods, run `src/eval/baseline.ipynb` and change t
 
 To run evaluation on the classification problem formulation of the problem, run `src/eval/classification_problem.ipynb`.
 
-### ML and Statistical Analyses for Climate Variables
+### ML and Statistical Analyses for Climate Variables and Topographic Features
 `src/wildfire_modelling_climate_data.ipynb` contains the code for running and evaluating our baseline models only on climate variables. Starting from the section titled **# Statistical Analysis of Fire vs Non-fire Features**, you'll be able to fetch the primary dataframes we curated and integrated earlier in the notebook, and run all relevant ML and statistical analyses.
+
+`src/augmented_feature_engineering.ipynb` contains the code for evaluating neural networks for multivariate regression integrating climate variables with topographic features.
 
