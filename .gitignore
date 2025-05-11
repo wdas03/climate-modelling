@@ -5,4 +5,3 @@ __pycache__/
 catboost_info/
 *.sqlite
 *.h5
-data/
