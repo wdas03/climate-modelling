@@ -1,5 +1,11 @@
 # Wildfire Spread Rate Predictions
-Instructions on how to run code.
+Instructions on how to run code. We suggest running in a Jupyter Notebook environment or on Google Colab.
+```
+git clone https://github.com/wdas03/climate-modelling.git
+cd climate-modelling
+cd src
+pip install -r requirements.txt
+```
 
 ## Getting Data
 First, download the `FIRED CONUS AK V2` dataset from https://scholar.colorado.edu/concern/datasets/fx719p11c?locale=de. All wildfire data originates from here.
