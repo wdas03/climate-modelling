@@ -7,6 +7,14 @@ cd src
 pip install -r requirements.txt
 ```
 
+## Repo Overview
+**Important Files:**
+- `src/data/conus_eda.ipynb`: EDA on FIRED CONUS and topographic data.
+- `src/wildfire_modelling_climate_data.ipynb`: Baseline analyses using ONLY climate variables (no topographic data) for multivariate regression on daily fire spread rate and total area burned, multivariate classification on daily fire spread rate and total area burned severity (Low, Moderate, High), and binary classificaiton of wildfire events from a two week prior window of climate data for specific regions.
+- `src/augmented_feature_engineering.ipynb`: Integration of topographic features with climate features from `wildfire_modelling_climate_data.ipynb` and analysis on a deep neural network (DNN).
+- `src/data/data_integration_slopes.ipynb`: Data integration of FIRED CONUS dataset with LANDFIRE dataset (getting slopes + elevations of 1km regions around the ignition points in FIRED CONUS)
+- `src/data/merge_weather_and_slope.ipynb`: Merge topographic features with climate variables.
+
 ## Getting Data
 First, download the `FIRED CONUS AK V2` dataset from https://scholar.colorado.edu/concern/datasets/fx719p11c?locale=de. All wildfire data originates from here.
 
